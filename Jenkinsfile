@@ -5,7 +5,7 @@ pipeline {
 
         stage('Hello World') {
             steps {
-                echo 'Hello World'
+                echo 'Hello World - ${env.BUILD_ID}'
             }
         }
 
